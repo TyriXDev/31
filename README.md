@@ -1,0 +1,7 @@
+echo "# 31" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/TyriXDev/31.git
+git push -u origin main
